@@ -1,0 +1,6 @@
+# Raw audit output can contain tenant IDs, user names and email addresses.
+# Copy scrubbed reports into reports/ before committing.
+audit-*/
+lab-manifest.json
+*.secret
+*.pfx
